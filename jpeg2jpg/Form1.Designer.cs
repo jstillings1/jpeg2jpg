@@ -63,7 +63,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Jeremiah\'s File Coverter";
+            this.Text = "Jeremiah\'s File Converter";
             this.ResumeLayout(false);
             this.PerformLayout();
 

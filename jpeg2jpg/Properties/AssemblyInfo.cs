@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("jpeg2jpg")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Jeremiah Stillinhs")]
+[assembly: AssemblyCompany("Jeremiah Stillings")]
 [assembly: AssemblyProduct("jpeg2jpg")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
