@@ -46,19 +46,21 @@ namespace jpeg2jpg
                 {
                 try
                 {
+                    // This takes a file and streams it into a drawing where we can...
                     var filePath = openFileDialog1.FileName;
                     string currentDirectory = Path.GetDirectoryName(filePath);
                     using (Stream str = openFileDialog1.OpenFile())
                     {
                         System.Drawing.Image oldImage = System.Drawing.Image.FromFile(filePath);
                         
-
+                        // ... save it as another file type using C#'s build in file conversion class called imageformat
                         oldImage.Save(currentDirectory + "/new.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+                        // let user know its done
                         System.Windows.Forms.MessageBox.Show("File Converted. It is called new.jpg in the folder that opens.");
 
                         
                     }
-
+                    // little scary but will open the file explorer where they saved it:)
                     Process.Start("explorer.exe", currentDirectory);
 
                 }
